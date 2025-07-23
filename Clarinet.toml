@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.bci-safety]
+path = 'contracts/bci-safety.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.enhancement-consent]
 path = 'contracts/enhancement-consent.clar'
 clarity_version = 2
